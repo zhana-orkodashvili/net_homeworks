@@ -11,6 +11,8 @@ namespace homework2
             Console.BackgroundColor= ConsoleColor.White;
             Console.WriteLine("Enter your name:");
             Console.WriteLine(Console.ReadLine());
+            Console.ResetColor();
+            Console.WriteLine("Console color was reset.");
         }
     }
 }
